@@ -1,0 +1,17 @@
+.home {
+  flex: 0.7;
+  display: grid;
+  place-items: center;
+  background: url("../../public/back-pattern.png") #1c8b82;
+  padding: 20px;
+  color: white;
+}
+
+.home > img {
+  object-fit: contain;
+  height: 100px;
+}
+
+.home > h1 {
+  margin-top: -300px;
+}

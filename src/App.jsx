@@ -4,6 +4,7 @@ import './css/App.css';
 import Login from "./components/Login";
 import Sidebar from "./components/Sidebar";
 import Chat from "./components/Chat";
+import Home from "./components/Home";
 import { useStateValue } from "./state/StateProvider";
 
 
@@ -20,7 +21,7 @@ function App() {
             <Sidebar />
             <Routes>
               <Route path="/rooms/:roomId" element={<Chat />} />
-              <Route path="/" element={<h1>Home Page</h1>} />
+              <Route path="/" element={<Home />} />
               <Route path="*" element={<h1>Invalid Route</h1>} />
             </Routes>
           </Router>
